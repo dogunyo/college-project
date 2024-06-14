@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const schema = mongoose.Schema;
 
 mongoose.connect(process.env.MONGODB_URI,{dbname: process.env.DB_NAME})
 .then(()=>{
