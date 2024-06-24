@@ -9,7 +9,7 @@ routes.get('/students', (req, res) => {
 });
 
 // Add a student to the database
-routes.post('/addStudent',studentcontroller.addstudent);
+routes.post('/addStudent',studentcontroller.addStudent);
 
 // Update a student in the database
 routes.put('/students/:id', (req, res) => {
